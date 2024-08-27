@@ -12,7 +12,7 @@ In a terminal, execute the steps described below:
 ```console
 echo "deb [trusted=yes] http://packages.chon.group/ chonos main" | sudo tee /etc/apt/sources.list.d/chonos.list
 sudo apt update
-sudo apt install velluscinum
+sudo apt install velluscinum-cli
 ```
 
 ## Velluscinum FAQ (Frequently asked question)
