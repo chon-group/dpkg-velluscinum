@@ -1,4 +1,4 @@
-Package: velluscinum
+Package: velluscinum-cli
 Version: 24.7.23
 Maintainer: chon@grupo.cefet-rj.br
 Architecture: all
