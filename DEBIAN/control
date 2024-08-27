@@ -1,0 +1,8 @@
+Package: velluscinum
+Version: 24.7.23
+Maintainer: chon@grupo.cefet-rj.br
+Architecture: all
+Pre-depends: temurin-17-jre | openjdk-17-jre
+Description: Velluscinum: A middleware for BigchainDB
+Installed-Size: 29696
+
