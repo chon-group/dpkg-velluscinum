@@ -1,5 +1,5 @@
 Package: velluscinum-cli
-Version: 24.12.16
+Version: 25.8.13
 Maintainer: chon@grupo.cefet-rj.br
 Architecture: all
 Pre-depends: openjdk-21-jdk | temurin-21-jdk

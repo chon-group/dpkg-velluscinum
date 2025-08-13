@@ -1,9 +1,9 @@
-# Velluscinum APT package
+# Velluscinum Command Line Interface
 
-|![chonide](https://papers.chon.group/PAAMS/2023/velluscinum/index_html_90b90abad4e74eed.gif)|
-|:--:|
-|Meta package for Debian, Ubuntu, Mint, and derivatives that provides the [Velluscinum](https://github.com/chon-group/velluscinum)|
-
+|![](https://github.com/chon-group/Velluscinum/wiki/.imgs/CLI/velluscinum-CLI.png)|
+|:-:|
+|Velluscinum-CLI is command-line API to manipulate the [BigchainDB](https://github.com/bigchaindb/bigchaindb), the blockchain database.|
+ 
 
 ## How to install?
 
@@ -15,9 +15,23 @@ sudo apt update
 sudo apt install velluscinum-cli
 ```
 
-## Velluscinum FAQ (Frequently asked question)
+## Velluscinum FAQ (Frequently asked question): See the [Velluscinum Wiki](https://github.com/chon-group/Velluscinum/wiki/Velluscinum-CLI).
 
-For more information: See the [Velluscinum Wiki](https://github.com/chon-group/Velluscinum/wiki).
+### DESCRIPTION 
+|__Argument__|__Description__|
+|:--|---|
+|[buildWallet](https://github.com/chon-group/Velluscinum/wiki/buildWallet-CLI)  |Creates a pair of files with an ECDSA keyset in Base58.|
+|[walletBalance](https://github.com/chon-group/Velluscinum/wiki/walletBalance-CLI) |Lists the content of a Wallet.|
+|[showToken](https://github.com/chon-group/Velluscinum/wiki/showToken-CLI) |Lists the content of a Token.|
+|||
+|[buildAsset](https://github.com/chon-group/Velluscinum/wiki/buildAsset-CLI)   |Generates a file with Data and MetaData about an ASSET.|
+|[deployNFT](https://github.com/chon-group/Velluscinum/wiki/deployNFT-CLI)    |Deploys a Non-Fungible-Token in the BigChainBD Network.|
+|[deployToken](https://github.com/chon-group/Velluscinum/wiki/deployToken-CLI)  |Deploys a Token in the BigChainBD Network.|
+|||
+|[buildTransfer](https://github.com/chon-group/Velluscinum/wiki/buildTransfer-CLI)|Generates a file with Metadata about the TRANSFER of an ASSET.|
+|[transferNFT](https://github.com/chon-group/Velluscinum/wiki/transferNFT-CLI)  |Transfer a Non-Fungible-Token in the BigChainDB Network.|
+|[transferToken](https://github.com/chon-group/Velluscinum/wiki/transferToken-CLI)|Transfer parts of a Token in the BigChainDB Network.|
+|[stampTransaction](https://github.com/chon-group/Velluscinum/wiki/stampTransaction-CLI)|Stamps a Transaction in the BigChainDB Network.|
 
 
 ## COPYRIGHT

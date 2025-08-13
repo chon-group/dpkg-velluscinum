@@ -1,6 +1,6 @@
 #!/bin/sh
 if [ -z "$1" ] ; then
-    echo "Invalid arguments, consult manual at: https://github.com/chon-group/Velluscinum/wiki"
+    echo "Invalid arguments, consult manual at: https://github.com/chon-group/Velluscinum/wiki/Velluscinum-CLI"
     exit 1
 fi
 JAVA_CMD="/usr/bin/java -jar"
